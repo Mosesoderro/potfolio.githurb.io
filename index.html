@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website.html</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/eb01d4e4e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo">LuminA</h2>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li> 
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I`m <span>LuminA</span><br> from Kenya</h1>
+            </div>
+        </div>
+    </div>
+
+    <!---------About----------->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/pexels-tubarones-photography-3026283.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <P>I'm a passionate web designer and developer with a keen eye for design and a knack for crafting user experiences that are both beautiful and intuitive. <br>I don't just build websites, I craft digital experiences that resonate with your audience and achieve your goals.
+
+                        Here's what sets me apart:
+                        
+                        Dual Expertise: I combine the creative power of design with the technical prowess of development, ensuring a cohesive and effective web presence.
+                        UI/UX Mastermind: I understand the importance of user experience and prioritize creating interfaces that are not only visually appealing but also incredibly user-friendly.</P>
+                    
+                        <div class="tab-tittles">
+                            <p  class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p  class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p  class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br> Web app Development</li>
+                                <li><span>App Development</span><br>Building Android/iOS apps</li>
+                            </ul>
+                        </div>    
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022 - Current</span><br>UI/UX Design at Global Tech Ltd</li>
+                                <li><span>2019 - 2022</span><br>Manager at StarApp LLC </li>
+                                <li><span>2017 - 2019</span><br>UI/UX Design team leader at Safaricom Ltd</li>
+                                <li><span>2016 - 2017</span><br>Internship at Urban Tech eCommerce</li>
+                            </ul>
+                        </div>    
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2016</span><br>UI/UX Design Training Institute at Ze-Tech</li>
+                                <li><span>2016</span><br>MBA from University Of Nairobi </li>
+                                <li><span>2014</span><br>BBA from University Of Nairobi</li>
+                            </ul>
+                        </div>    
+                </div> 
+            </div>
+        </div>
+    </div>
+
+        <!----- --------services----------- ---->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Helping businesses thrive online with strategic web design.<br>
+                    Your website is your digital storefront. Let's make it shine.
+                    I design websites that get results.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>I'm passionate about creating UI/UX that empowers users.
+                    Let's tell your brand story through user-centered design.<br>
+                    I don't just design interfaces, I craft experiences that connect.
+                    
+                    </p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Helping businesses reach new audiences with impactful app design.
+                    Your app is your pocket-sized brand ambassador. Let's design it right.
+                    I design apps that get downloaded and used.
+                    
+                    </p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!------------portfolio------------ -->
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-tittle">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="image/image-1.jpg">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>Designing social apps that make a difference.
+                    Helping brands connect with their audiences through innovative social experiences.</p>
+                 <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>    
+            </div>
+        </div>
+        <div class="work">
+            <img src="image/image-4.jpg">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>Personalized playlists. Made just for you.</p>
+                 <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>    
+            </div>
+        </div>
+        <div class="work">
+            <img src="image/image-3.png">
+            <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>Shop on the go. Anytime, anywhere.</p>
+                 <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>    
+            </div>
+        </div>
+    </div> 
+    <a href="#" class="btn">See more</a>
+</div>
+</div>
+
+<!--------------contact------------>
+<div id="contact"> 
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> luminadesigner7@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i>+254 700817098</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+               <a href="image/MOSES.WEB.pdf" download="" class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form nane="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">WhatsApp@ +254700817098</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ LuminA. Made with LuminA  <i class="fa-brands fa-webflow"></i> eb Designer </p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+ 
+        for(tablink of tablinks){ 
+            tablink.classList.remove("active-link");
+        }
+        
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbys88fhraehVdDQa1DAs9pij7cual7o2LlOovlDNvI1sDRHrVjuTLOD6TEJT2PbE1Eu/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</htm
